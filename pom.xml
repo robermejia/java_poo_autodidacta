@@ -10,5 +10,5 @@
         <maven.compiler.release>23</maven.compiler.release>
         <exec.mainClass>ar.charlycimino.poo_java.Poo_java</exec.mainClass>
     </properties>
-    <name>poo_java_autodidacta</name>
+    <name>java_poo_autodidacta</name>
 </project>
