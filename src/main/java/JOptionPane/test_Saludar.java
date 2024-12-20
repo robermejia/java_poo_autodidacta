@@ -1,4 +1,4 @@
-package Ejer3_Saludar;
+package JOptionPane;
 
 import javax.swing.JOptionPane;
 

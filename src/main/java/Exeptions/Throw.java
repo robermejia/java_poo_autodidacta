@@ -1,4 +1,4 @@
-package Ecepciones2;
+package Exeptions;
 
 import javax.swing.JOptionPane;
 

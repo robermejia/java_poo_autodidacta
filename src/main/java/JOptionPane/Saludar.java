@@ -1,4 +1,4 @@
-package Ejer3_Saludar;
+package JOptionPane;
 
 public class Saludar {
     String name;
