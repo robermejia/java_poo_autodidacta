@@ -1,6 +1,5 @@
-package Ecepciones1;
+package Exeptions;
 
-import com.sun.source.doctree.SystemPropertyTree;
 import javax.swing.JOptionPane;
 
 public class ecepciones {
