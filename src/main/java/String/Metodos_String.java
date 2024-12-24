@@ -45,7 +45,15 @@ public class Metodos_String {
 
     // toCharArray()
     // Convierte la cadena en un erreglo de caracteres (devuelve un: char[]).
-    System.out.println("nombre.toCharArray() = " + nombre.toCharArray());
+    System.out.print("nombre.toCharArray() = ");
+    char[] nombreArray = nombre.toCharArray();
+    for (int i = 0; i < nombreArray.length; i++) {
+        System.out.print(nombreArray[i]);
+        if (i < nombreArray.length - 1) {
+            System.out.print(", ");
+        }
+    }
+    System.out.println("");
 
     // substring(int a, int b)
     // Extrae la sub-cadena entre las posiciones a y b (devuelve un: String).
@@ -78,5 +86,11 @@ public class Metodos_String {
     // split(String patron)
     // Divide la cadena en varias subcadenas utlizando el patrón indicado como separador. (devuelve un: String[]
     System.out.println("nombre.split(\" - \") = " +  nombre.split(" - "));
+        System.out.print("nombre.split(\" - \") = ");
+        String[] nombreArray2 = nombre.split(" - ");
+        for (int i = 0; i < nombreArray2.length; i++) {
+            System.out.println(nombreArray2[i]);
+        }
+        System.out.println("");
     }
 }
