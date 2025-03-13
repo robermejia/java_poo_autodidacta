@@ -3,7 +3,7 @@ package List;
 import java.util.LinkedList;
 import java.util.List;
 
-public class LinkedList_Sintaxis {
+public class Lista_LinkedList {
     
         public static void main(String[] args) {
         

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
 
-public class ArrayList_Sintaxis {
+public class Lista_ArrayList {
 
     public static void main(String[] args) {
         // Añadiendo datos a la clase "FamiliaNuclear"
