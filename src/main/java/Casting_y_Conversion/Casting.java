@@ -17,31 +17,42 @@ public class Casting {
         // De int a double
         int numero = 100;
         double decimal = numero; // Casteo implícito
-        System.out.println("Int => decimal: " + decimal);
+        System.out.println("int => double: " + decimal);
+        // Salida: Int => decimal: 100
+        
         
         // De double a int
         int otroNumero = (int) 9.99; // Casteo explícito 
-        System.out.println("Double => Int: " + otroNumero);
-
+        System.out.println("double => Int: " + otroNumero);
+        // Salida: double => int: 9
+        
+        
         // De int double
         int num = 10;
         double numDouble = (double) num;
-        System.out.println("Int => Double: " + numDouble);
-
+        System.out.println("int => double: " + numDouble);
+        // Salida: int => double: 10
+        
+        
         // De int a short
         int numInt = 30000;
         short numShort = (short) numInt;
-        System.out.println("Int => Short: " + numShort);
-
+        System.out.println("int => short: " + numShort);
+        // Salida: int => short: 30000
+        
+        
         // De int a log
         int num2Int = 40000;
         long numLong = (long) num2Int;
-        System.out.println("Int => Log: " + numLong);
-
+        System.out.println("int => log: " + numLong);
+        // Salida: int => log: 40000
+        
+        
         // De int a String
         // NOTA: Esto es una conversion no un casteo
         int num3Int = 50000;
         String cadenaInteger = Integer.toString(num3Int);
-        System.out.print("Int => Cadena: " + cadenaInteger);
+        System.out.print("int => String: " + cadenaInteger);
+        // Salida: int => String: "50000"
     }
 }
